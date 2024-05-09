@@ -1,0 +1,201 @@
+html, body {
+  width: 1440px;
+height: 1567px;
+
+}
+.App {
+  text-align: center;
+  margin: 10px;
+}
+
+
+.header  {
+  width: 986px;
+  height: 62px;
+  flex-shrink: 0;
+  display: flex;
+  justify-content: space-between; 
+  align-items: center; 
+}
+
+.header-left, .header-list, .header-search {
+  display: flex; 
+  align-items: center; 
+}
+
+.header-left {
+  width: 150px;
+height: 50px;
+flex-shrink: 0;
+}
+
+.header-list {
+  width: 150px;
+height: 19px;
+display: flex;
+align-items: center;
+
+}
+
+#header-tab {
+  width: 150px;
+  height: 19px;
+  display: inline-flex;
+align-items: flex-start;
+gap: 80px;
+list-style-type: none;
+display: inline-block;
+}
+
+#header-tab .list1 {
+  color: #000;
+font-family: Pretendard;
+font-size: 13px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+#header-tab span.list1 {
+  margin-right: 20px; /* 간격 크기 조절 */
+  margin-left:20px;
+}
+
+
+.header-tab #list2 {
+  color: #000;
+font-family: Pretendard;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+margin-left: 200px;
+}
+
+
+
+
+.header-search {
+  width: 276px;
+height: 32px;
+flex-shrink: 0;
+border-radius: 20px;
+background: #F1F1F1;
+}
+
+.search-input {
+  color: var(--sub-text-2, #B0B0B0);
+font-family: Pretendard;
+font-size: 12px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+.search-icon {
+  width: 24px;
+height: 24px;
+flex-shrink: 0;
+margin-left: 200px;
+}
+
+.logintab {
+  display: flex;
+  align-items: center;
+
+}
+
+.logintab div {
+  margin-right: 10px; 
+}
+
+.ButtonTab {
+  margin-bottom: 30px;
+}
+
+.news-item {
+  display: flex;
+  margin: 20px;
+}
+
+.news-item .news-content {
+  text-align: left;
+  margin-left: 20px;
+  display: grid;
+}
+
+.newsImg {
+  width: 88.061px;
+height: auto;
+flex-shrink: 0;
+border-radius: 10px;
+object-fit: cover;
+overflow: hidden;
+height: 96px;
+margin-left: auto;
+margin-top: 30px;
+}
+
+.textbook-item {
+  display: flex;
+  margin: 20px;
+}
+
+.img2 {
+  margin-left: auto;
+  text-align: right;
+
+}
+
+
+.textbook-tab {
+  display: flex;
+width: 754.623px;
+height: 96px;
+justify-content: center;
+align-items: center;
+gap: 123.563px;
+flex-shrink: 0;
+}
+
+.titlename {
+  margin: 20px;
+}
+
+.footer {
+width: 336px;
+height: 16px;
+padding-right: 0px;
+justify-content: center;
+align-items: flex-end;
+gap: 19.771px;
+flex-shrink: 0;
+clear: both;
+color: #929292;
+font-family: "Noto Sans";
+font-size: 10px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.footer .f-menu {
+  float: left;
+margin:20px,20px;
+}
+
+.ButtonTab {
+  width: 378px;
+  height: 52px;
+  padding: 17px 0px;
+  display: flex;
+justify-content: center;
+align-items: center;
+flex-shrink: 0;
+  margin: 15px 0px;
+}
+
+
+
+
+
