@@ -1,0 +1,335 @@
+html, body {
+  width: 1440px;
+height: 1567px;
+}
+*{
+  padding: 0;
+  margin: 0;
+}
+
+.App {
+  text-align: center;
+  margin: 10px 30px;
+  font-family: "pretendard";
+}
+
+.header  {
+  width: 986px;
+  height: 62px;
+  flex-shrink: 0;
+  display: flex;
+  justify-content: space-between; 
+  align-items: center; 
+  padding-left: 30px;
+}
+
+.header-left, .header-list, .header-search {
+  display: flex; 
+  align-items: center; 
+}
+
+.header-left {
+  width: 150px;
+height: 50px;
+flex-shrink: 0;
+}
+
+.header-list {
+  width: 180px;
+height: 19px;
+display: flex;
+align-items: center;
+
+}
+
+#header-tab {
+  width: 200px;
+  height: 19px;
+  display: inline-flex;
+align-items: flex-start;
+gap: 80px;
+list-style-type: none;
+display: inline-block;
+}
+
+#header-tab .list1 {
+  color: #000;
+font-family: Pretendard;
+font-size: 13px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+#header-tab span.list1 {
+  margin-right: 20px; /* 간격 크기 조절 */
+  margin-left:30px;
+}
+
+
+.header-tab #list2 {
+  color: #000;
+font-family: Pretendard;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+margin-left: 200px;
+}
+
+
+.header-search {
+width: 276px;
+height: 32px;
+padding:0 5px;
+border-radius: 20px;
+background: #F1F1F1;
+margin: 0px 10px;
+}
+
+.header-search > .search-input {
+background-color: #F1F1F1;
+border: #F1F1F1;
+font-family: Pretendard;
+font-size: 12px;
+font-weight: 500;
+}
+
+.header-search .search-icon {
+width: 24px;
+height: 24px;
+margin-left: 110px;
+}
+
+.logintab {
+  display: flex;
+  align-items: center;
+
+}
+
+.logintab div {
+  margin-right: 10px; 
+}
+
+.info {
+  display: inline-block;
+    margin-right: 17px;
+    vertical-align: top;
+}
+.info .infolist {
+  display: inline-block;
+    line-height: 20px;
+    vertical-align: top;
+    margin: 30px;
+}
+.login-main {
+  width: 400px;
+  height: 350px;
+  padding: 50px;
+  margin-left: 480px;
+  text-align: center;
+  justify-content: center;
+}
+
+.userlogin {
+  font-size: 24px;
+  text-align: left;
+  margin-left: 25px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  font-family: "Pretendard";
+}
+
+#login-form {
+  padding-top: 30px;
+  padding-bottom: 10px;
+  border-radius: 8px;
+}
+
+
+.form-group > input {
+  width: 378px;
+  height: 55px;
+  padding: 0 10px;
+  box-sizing: border-box;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  border: 2px solid  rgba(228, 228, 228, 1);
+}
+
+#login-form.form-group p {
+margin-left: -300px;
+text-align: left;
+text-align: center;
+font-size: 14px;
+font-weight: 400;
+font-family:"Pretandard";
+}
+
+
+.checkform {
+  margin-left: 20px;
+  text-align: left;
+  font-size: 14px;
+  
+}
+
+#login-form #mailid {
+   font-size: 14px;
+
+}
+#login-form > input[type="checkbox"]{
+  display: none;
+}
+
+.sublogin {
+  text-align: center;
+  margin-left: 30%;
+  margin-top: 30px;
+}
+
+.form-text {
+  font-size: 12px;
+  color: rgba(121, 121, 121, 1);
+  text-align: center;
+  align-items: center;
+  margin-right: 40%;
+  margin-bottom: 50px;
+}
+
+
+.loginsub {
+  display: flex;
+  margin: 0PX 50PX 50PX 100PX;
+  text-align: center;
+  align-items: center;
+
+}
+
+.iconimg {
+  width: 45px;
+  height: 45px;
+  position: relative;
+  margin:0px 30px 20px 30px;
+}
+
+.iconimg > img {
+  position: absolute;
+  width: 100%;
+}
+
+#container {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.signup-main {
+    height: 350px;
+    display: flex;
+    padding: 50px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.main-text {
+  font-size: 24px;
+  text-align: center;
+  margin-left: -260px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  font-family: "Pretendard";
+  
+}
+.signup-form {
+  padding-top: 30px;
+  padding-bottom: 20px;
+  border-radius: 8px;
+  width: 700px;
+  text-align: center;
+
+}
+
+.form-group > input {
+    width: 378px;
+    height: 55px;
+    padding: 0 10px;
+    box-sizing: border-box;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    border: 2px solid  rgba(228, 228, 228, 1);
+}
+
+.form-group p {
+  margin-left: -300px;
+  text-align: center;
+  font-size: 14px;
+}
+
+
+.form-group .email-input input {
+  display: flex;
+  display: inline-block;
+  align-items: center;
+  width: 378px;
+  margin-left: 120px;
+  margin-bottom: 30px;
+  height: 55px;
+  border-radius: 10px;
+  border: 2px solid  rgba(228, 228, 228, 1);
+
+}
+
+.email-input button {
+  margin-left: 50px; 
+  display: inline-block;  
+  border: 1px solid rgba(62, 183, 175, 1);
+  border-radius: 5px;
+  background-color: white;
+  padding: 5px;
+}
+
+
+#signup-form > input[type="checkbox"]{
+  display: none;
+}
+
+
+.form-text {
+  font-size: 12px;
+  color: rgba(121, 121, 121, 1);
+}
+
+.buttontab {
+justify-content: center;
+margin: 0px 0px;
+}
+
+
+.footer {
+  bottom: 0;
+  margin-top: 100PX;
+  justify-content: center;
+}
+.footer .f-menu {
+  text-align: center;
+  
+}
+
+.f-menu span {
+  border-right: 1px solid #929292;
+  margin-right: 20px;
+  padding: 0 20px 0 10px; 
+  font-size: 10px;
+  font-family: 'sans-serif';
+  font-weight: 400;
+
+}
+
+.f-menu span:last-child { 
+  border: none; 
+}
