@@ -1,0 +1,127 @@
+html, body {
+  width: 1440px;
+height: 1567px;
+
+}
+
+*{
+  padding: 0;
+  margin: 0;
+  border: none;
+}
+.App {
+  text-align: center;
+  margin: 10px 30px;
+  font-family: "Pretendard";
+}
+
+
+.logintab {
+  display: flex;
+  align-items: center;
+
+}
+
+.logintab div {
+  margin-right: 10px; 
+}
+
+.info {
+  display: inline-block;
+    margin-right: 17px;
+    vertical-align: top;
+}
+.info .infolist {
+  display: inline-block;
+    line-height: 20px;
+    vertical-align: top;
+    margin: 30px;
+}
+.login-main {
+  width: 400px;
+    height: 350px;
+    padding: 40px;
+    margin-left: 30%;
+  text-align: center;
+}
+
+.userlogin {
+  font-size: 24px;
+  text-align: left;
+  margin-left: 20px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  font-family: "Pretendard";
+}
+
+#login-form {
+  padding-top: 30px;
+  padding-bottom: 20px;
+  border-radius: 8px;
+}
+
+
+.form-group > input {
+  width: 378px;
+  height: 55px;
+  padding: 0 10px;
+  box-sizing: border-box;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  border: 2px solid  rgba(228, 228, 228, 1);
+}
+
+#login-form.form-group p {
+margin-left: -300px;
+text-align: left;
+text-align: center;
+font-size: 14px;
+font-weight: 400;
+font-family:"Pretandard";
+}
+
+
+.checkform {
+  margin-left: 20px;
+  text-align: left;
+  font-size: 14px;
+}
+
+#login-form #mailid {
+   font-size: 14px;
+
+}
+#login-form > input[type="checkbox"]{
+  display: none;
+}
+
+.buttontab {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-text {
+  font-size: 12px;
+  color: rgba(121, 121, 121, 1);
+}
+
+.loginsub {
+  display: flex;
+  margin-left: 10%;
+  margin-bottom: 30px;
+
+}
+
+.iconimg {
+  width: 45px;
+  height: 45px;
+  position: relative;
+  flex-shrink: 0;
+  margin:0px 30px 20px 30px;
+}
+.iconimg > img {
+  position: absolute;
+  width: 100%;
+}
+

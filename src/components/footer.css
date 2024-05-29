@@ -1,0 +1,20 @@
+.footer {
+    bottom: 0;
+    text-align: center;
+    margin-top: 150px;
+  }
+  .footer .f-menu {
+    text-align: center;
+    
+  }
+  
+  .f-menu span {
+    border-right: 1px solid #929292;
+    margin-right: 20px;
+    padding: 0 20px 0 10px; 
+    font-size: 10px;
+  }
+  
+  .f-menu span:last-child { 
+    border: none; 
+  }

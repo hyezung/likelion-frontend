@@ -1,0 +1,21 @@
+.newspage {
+    width: 846px;
+    height: 770px;
+    display: block;
+    align-content: center;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center; /* 수평 중앙 정렬 */
+    margin: 0 auto;
+    padding-left: 50px; 
+
+}
+
+
+.news-list {
+    text-align: center;
+    display: flex; /* Flexbox 사용 */
+    flex-wrap: wrap; /* 여러 줄로 아이템 배치 */
+    margin-top: 50px;
+    width: 100%;
+}

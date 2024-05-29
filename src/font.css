@@ -1,0 +1,13 @@
+/* src/font.css */
+@font-face {
+    font-family: 'Pretendard';
+    src: url('./assets/Pretendard-Black.ttf') format('truetype'),
+         url('./assets/Pretendard-Light.ttf') format('truetype'),
+         url('./assets/Pretendard-Medium.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Pretendard', sans-serif;
+}

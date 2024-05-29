@@ -1,0 +1,87 @@
+#container {
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .signup-main {
+      height: 350px;
+      display: flex;
+      padding: 50px;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+  }
+  
+  .main-text {
+    font-size: 24px;
+    text-align: center;
+    margin-left: -260px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    font-family: "Pretendard";
+    
+  }
+  .signup-form {
+    padding-top: 30px;
+    padding-bottom: 20px;
+    border-radius: 8px;
+    width: 700px;
+    text-align: center;
+  
+  
+  }
+  
+  
+  .form-group > input {
+      width: 378px;
+      height: 55px;
+      padding: 0 10px;
+      box-sizing: border-box;
+      margin-bottom: 30px;
+      border-radius: 10px;
+      border: 2px solid  rgba(228, 228, 228, 1);
+  }
+  
+  
+  .form-group p {
+    margin-left: -300px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+  }
+  
+  
+  .form-group .email-input input {
+    display: inline-block;
+    padding: 0 10px;
+    width: 360px;
+    margin-left: 120px;
+    margin-bottom: 30px;
+    height: 55px;
+    border-radius: 10px;
+    border: 2px solid  rgba(228, 228, 228, 1);
+  
+  }
+  
+  .email-input button {
+    margin-left: 50px; 
+    display: inline-block;  
+    border: 1px solid rgba(62, 183, 175, 1);
+    border-radius: 5px;
+    background-color: white;
+    padding: 5px;
+  }
+  
+  
+  #signup-form > input[type="checkbox"]{
+    display: none;
+  }
+  
+  
+  
+  
+  
