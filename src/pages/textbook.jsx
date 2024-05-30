@@ -16,14 +16,14 @@ const bookItems = [
     id: 2,
     title: '주요 지수, 코스피 코스닥이란?',
     imageUrl: "/chess-queen.png",
-    backgroundColor: "#f0f0f0" 
+    backgroundColor: "rgba(133, 214, 209, 1)" 
   },
 
   {
     id: 3,
     title: '주식 기본 용어 알고 시작하자!',
     imageUrl: "/chart-areaspline.png",
-    backgroundColor: "#f0f0f0"
+    backgroundColor: "rgba(209, 226, 239, 1)"
   }
 ];
 

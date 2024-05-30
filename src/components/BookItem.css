@@ -27,8 +27,13 @@
     line-height: normal;
     margin-top: 20px;
 }
-
-.newsImg img {
+.textbook-Img {
+    border-radius: 10px;
+    width: 55.21px;
+    height: 55.21px;
+}
+.textbook-Img img {
     width: 34.506px;
     height: 33.739px;
+    margin-top: 10px;
 }
